@@ -1,0 +1,30 @@
+{
+  "name": "rollup-plugin-substrate",
+  "version": "0.1.0",
+  "description": "rollup plugin to convert explorable.md documents into plain javascript modules.",
+  "main": "plugin.cjs.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mreinstein/rollup-plugin-substrate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mreinstein/rollup-plugin-substrate/issues"
+  },
+  "homepage": "https://github.com/mreinstein/rollup-plugin-substrate#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "rollup": "^2.32.1"
+  },
+  "dependencies": {
+    "substrate-build": "^0.5.0"
+  }
+}
