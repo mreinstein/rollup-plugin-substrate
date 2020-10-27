@@ -6,12 +6,12 @@ export default function substrate () {
     return {
         name: 'substrate',
 
-        transform (code, id) {
+        transform (source, id) {
             if (!id.endsWith('.explorable.md'))
                 return
 
             return {
-                code: buildModule(code),
+                code: buildModule({ source }),
                 map: { mappings: '' }
             }
         }
