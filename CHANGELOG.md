@@ -1,3 +1,7 @@
+# 0.3.1
+* update deps
+
+
 # 0.3.0
 * update `substrate-build` dep to 0.7.0
 * update `author` field in `package.json`

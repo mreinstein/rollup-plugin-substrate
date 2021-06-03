@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-substrate",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "rollup plugin to convert explorable.md documents into plain javascript modules.",
   "main": "plugin.cjs.js",
   "scripts": {
