@@ -1,3 +1,8 @@
+# 0.4.0
+* remove build step
+* require node >= v12.17
+
+
 # 0.3.1
 * update deps
 
