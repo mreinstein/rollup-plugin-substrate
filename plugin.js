@@ -1,5 +1,4 @@
-import buildModule from 'substrate-build'
-//import buildModule from 'https://cdn.skypack.dev/substrate-build'
+import substrateBuild from 'substrate-build'
 
 
 export default function substrate () {
@@ -11,7 +10,7 @@ export default function substrate () {
                 return
 
             return {
-                code: buildModule({ source }),
+                code: substrateBuild({ source }),
                 map: { mappings: '' }
             }
         }
