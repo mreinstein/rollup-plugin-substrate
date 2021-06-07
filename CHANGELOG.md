@@ -1,3 +1,7 @@
+# 0.4.1
+* fix missing type field in `package.json`
+
+
 # 0.4.0
 * remove build step
 * require node >= v12.17
