@@ -1,3 +1,7 @@
+# 0.5.0
+* update `substrate-build` dep to 0.10.0
+
+
 # 0.4.1
 * fix missing type field in `package.json`
 
