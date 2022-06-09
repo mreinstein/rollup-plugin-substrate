@@ -20,7 +20,7 @@
   "homepage": "https://github.com/mreinstein/rollup-plugin-substrate#readme",
   "devDependencies": {},
   "dependencies": {
-    "substrate-build": "^0.8.0"
+    "substrate-build": "^0.10.0"
   },
   "engines": {
     "node": ">=12.17"
